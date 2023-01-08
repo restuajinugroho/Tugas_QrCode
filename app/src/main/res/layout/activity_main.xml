@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin">
+
+    <Button
+        android:id="@+id/buttonScan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QR CODE SCAN"
+        android:layout_alignParentBottom="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="80dp"
+            android:text="Tugas Project QRCode "
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:id="@+id/judul"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama :"
+            android:textColor="@color/black"
+            android:layout_below="@+id/judul"
+            android:id="@+id/nama"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Restu Aji Nugroho"
+            android:textColor="@color/black"
+            android:layout_below="@+id/nama"
+            android:id="@+id/namaasli"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kelas :"
+            android:textColor="@color/black"
+            android:layout_below="@+id/namaasli"
+            android:id="@+id/kelas"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TI.21.C.4"
+            android:textColor="@color/black"
+            android:layout_below="@+id/kelas"
+            />
+</RelativeLayout>
